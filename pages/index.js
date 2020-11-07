@@ -9,6 +9,7 @@ export default function Home() {
       <main className={styles.main}>
         <img src="/img/crasher-logo-white.png" alt="Crasher Spark Logo"/>
         <h1 className={styles.title}>Here Soon</h1>
+        <p>Testing</p>
 
       </main>
 
