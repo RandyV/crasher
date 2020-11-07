@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: fadeInUp 1.3s;
+}
+
+@keyframes fadeInUp {
+  0%   {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% { opacity: 1; }
+}
+
+img {
+  font: bold 30px Helvetica;
+  animation: fadeInUp 1s;
+}
