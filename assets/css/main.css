@@ -867,6 +867,12 @@ button,
     opacity: 1; }
   #footer > :last-child {
     margin-bottom: 0; }
+
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+    }
   @media screen and (max-width: 1680px) {
     #footer {
       bottom: 3.5em;
